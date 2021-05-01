@@ -3,15 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableTemelleri", "HashTableTemelleri\HashTableTemelleri.csproj", "{E33E3A51-FA94-4127-9665-7E29FABA8181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTableTemelleri", "HashTableTemelleri\HashTableTemelleri.csproj", "{E33E3A51-FA94-4127-9665-7E29FABA8181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableUygulama", "HashTableUygulama\HashTableUygulama.csproj", "{5A9AA558-FBD7-4CA1-BE85-99F8038E5250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTableUygulama", "HashTableUygulama\HashTableUygulama.csproj", "{5A9AA558-FBD7-4CA1-BE85-99F8038E5250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedListTemelleri", "SortedListTemelleri\SortedListTemelleri.csproj", "{8544A831-1631-4C55-AB81-2687E9C911BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedListTemelleri", "SortedListTemelleri\SortedListTemelleri.csproj", "{8544A831-1631-4C55-AB81-2687E9C911BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SordetListUygulamasi", "SordetListUygulamasi\SordetListUygulamasi.csproj", "{82718FA3-1633-4FBE-83DA-886AE3679375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SordetListUygulamasi", "SordetListUygulamasi\SordetListUygulamasi.csproj", "{82718FA3-1633-4FBE-83DA-886AE3679375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayClass_Metotlari", "ArrayClass_Metotlari\ArrayClass_Metotlari.csproj", "{43A023AA-EF3A-4153-B9F1-CC5BF60F39CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayClass_Metotlari", "ArrayClass_Metotlari\ArrayClass_Metotlari.csproj", "{43A023AA-EF3A-4153-B9F1-CC5BF60F39CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lComparable_Implement", "lComparable_Implement\lComparable_Implement.csproj", "{C1F3A780-1C8C-405A-B5C1-91FF9B34473F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackUygulama", "StackUygulama\StackUygulama.csproj", "{187B9936-3727-4831-BA5E-6AC739E8AE16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueUygulama", "QueueUygulama\QueueUygulama.csproj", "{60EA87BB-44E3-4FEB-B74B-912C8B7A178C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListUygulama", "LinkedListUygulama\LinkedListUygulama.csproj", "{4C0D5942-10FC-4BF3-9C70-2E7478D305D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryUygulama", "DictionaryUygulama\DictionaryUygulama.csproj", "{E93F3B73-EF03-4A31-A625-5103E4105202}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,26 @@ Global
 		{43A023AA-EF3A-4153-B9F1-CC5BF60F39CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A023AA-EF3A-4153-B9F1-CC5BF60F39CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A023AA-EF3A-4153-B9F1-CC5BF60F39CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F3A780-1C8C-405A-B5C1-91FF9B34473F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F3A780-1C8C-405A-B5C1-91FF9B34473F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F3A780-1C8C-405A-B5C1-91FF9B34473F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F3A780-1C8C-405A-B5C1-91FF9B34473F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187B9936-3727-4831-BA5E-6AC739E8AE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187B9936-3727-4831-BA5E-6AC739E8AE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187B9936-3727-4831-BA5E-6AC739E8AE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187B9936-3727-4831-BA5E-6AC739E8AE16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EA87BB-44E3-4FEB-B74B-912C8B7A178C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EA87BB-44E3-4FEB-B74B-912C8B7A178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EA87BB-44E3-4FEB-B74B-912C8B7A178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EA87BB-44E3-4FEB-B74B-912C8B7A178C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0D5942-10FC-4BF3-9C70-2E7478D305D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0D5942-10FC-4BF3-9C70-2E7478D305D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0D5942-10FC-4BF3-9C70-2E7478D305D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0D5942-10FC-4BF3-9C70-2E7478D305D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E93F3B73-EF03-4A31-A625-5103E4105202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93F3B73-EF03-4A31-A625-5103E4105202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93F3B73-EF03-4A31-A625-5103E4105202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93F3B73-EF03-4A31-A625-5103E4105202}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
